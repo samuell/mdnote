@@ -1,0 +1,13 @@
+body {
+	font-family: arial;
+	font-size: .9em;
+}
+pre {
+	background: #efefef;
+	padding: 1em;
+	border: 1px solid #eee;
+}
+code {
+	background: #efefef;
+	padding: .2em;
+}
