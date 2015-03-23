@@ -11,4 +11,7 @@ I couldn't find a suitable simple Markdown Notebook, so I "created an own"
 4. Write
 5. Save
 6. Exit (The journal will be committed and pushed to the origin at this point)
-7. Done!
+8. `./mdtohtml.sh`
+9. `chromium-browser html/<filename>.html`
+
+
