@@ -1,6 +1,8 @@
 # Markdown Notebook
 I couldn't find a suitable simple Markdown Notebook, so I "created an own" 
 
+![Screenshot](mdnotebook.png)
+
 ## Usage
 
 1. `git init .`
