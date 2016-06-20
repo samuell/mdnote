@@ -1,5 +1,5 @@
 # Markdown Notebook
-I couldn't find a suitable simple Markdown Notebook, so I "created an own" 
+I couldn't find a suitable simple Markdown Notebook, so I "created my own" 
 
 ![Screenshot](mdnotebook.png)
 
