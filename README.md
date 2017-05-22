@@ -22,5 +22,9 @@ I couldn't find a suitable simple Markdown Notebook, so I "created my own"
 4. Write
 5. Save
 6. Exit (The journal will be committed and pushed to the origin at this point)
-8. `./mdtohtml.sh`
-9. `chromium-browser html/<filename>.html`
+7. Create viewable file(s):
+  - `./mdtohtml_perfile.sh` for one HTML file per journal file / day (in `html/` folder)
+  - `./mdtoepub_perfile.sh` for one EPUB file per journal file / day (in `epub/` folder)
+  - `./mdtohtml_merge.sh` for one single HTML page, with all journal files merged.
+  - `./mdtoepub_merge.sh` for one single EPUB, with all journal files merged.
+9. Open one of the generated files for viewieng history (could be `chromium-browser html/<filename>.html` (or `exo-open epub/<filename>.epub` to open in your OSs epub-reader, on ubuntu at least).)
