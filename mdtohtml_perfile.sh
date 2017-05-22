@@ -9,5 +9,9 @@ if [[ ! -d html ]]; then
 	mkdir html
 fi;
 for f in 2*.md; do 
-	pandoc -i $f -o html/${f%.md}.html;
+    htmlfile=html/${f%.md}.html
+    echo '<link rel="stylesheet" type="text/css" href="../css/main.css">' > $htmlfile
+	pandoc -i $f -o $htmlfile.tmp;
+    cat $htmlfile.tmp >> $htmlfile;
+    rm $htmlfile.tmp;
 done;
